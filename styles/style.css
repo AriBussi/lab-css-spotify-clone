@@ -56,10 +56,28 @@ a {
     width: 100%;
 }
 
-header {
-    width: 100vw;
+#hero {
+    color: white;
     height: 100vh;
-    background-color: #1A1A1A;
+    background: url("../images/landing.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+#hero p {
+    color: rgba(225, 225, 225, .6);
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.5;
 }
 
 main {
